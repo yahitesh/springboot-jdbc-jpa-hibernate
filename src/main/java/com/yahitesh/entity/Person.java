@@ -9,6 +9,18 @@ public class Person {
 	private String location;
 	private Date birthDate;
 
+	public Person() {
+		super();
+	}
+
+	public Person(int id, String name, String location, Date birthDate) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.location = location;
+		this.birthDate = birthDate;
+	}
+
 	public int getId() {
 		return id;
 	}

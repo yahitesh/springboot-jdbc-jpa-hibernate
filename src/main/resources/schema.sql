@@ -6,3 +6,6 @@ location varchar(255),
 birth_date timestamp,
 primary key(id)
 );
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE) VALUES(1001,'Raj','Alwar', sysdate());
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE) VALUES(1002,'Rajesh','Jaipur', sysdate());
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE) VALUES(1003,'Pavan','Noida', sysdate());
